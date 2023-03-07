@@ -1,0 +1,236 @@
+{
+    "_embedded":
+    {
+        "applications":
+        [
+            {
+                "id": 243,
+                "oid": 347,
+                "last_completed_scan_date": "2023-02-08T12:25:43.000Z",
+                "guid": "d243b810",
+                "created": "2016-08-29T18:00:53.000Z",
+                "modified": "2023-02-09T13:47:18.000Z",
+                "app_profile_url": "HomeAppProfile",
+                "scans":
+                [
+                    {
+                        "scan_type": "STATIC",
+                        "status": "PUBLISHED",
+                        "modified_date": "2023-02-08T12:25:43.000Z",
+                        "scan_url": "StaticOverview",
+                        "internal_status": "resultsready",
+                        "links": [],
+                        "fallback_type": null,
+                        "full_type": null
+                    },
+                    {
+                        "scan_type": "DYNAMIC",
+                        "status": "PUBLISHED",
+                        "modified_date": "2022-12-11T12:30:16.000Z",
+                        "scan_url": "DynamicParamsView",
+                        "internal_status": "resultsready",
+                        "links": [],
+                        "fallback_type": null,
+                        "full_type": null
+                    }
+                ],
+                "last_policy_compliance_check_date": "2023-02-08T12:27:51.000Z",
+                "profile":
+                {
+                    "name": "PowerShare Webapp",
+                    "tags": "Healthcare, Pharmaceuticals, & Biotech",
+                    "business_unit":
+                    {
+                        "id": 53264,
+                        "name": "Healthcare R&D",
+                        "guid": "b34d579d"
+                    },
+                    "business_owners": 
+                    [
+                        {
+                            "name": "ALM",
+                            "email": "alm@gmail.com"
+                        }
+                    ],
+                    "archer_app_name": null,
+                    "policies": 
+                    [
+                        {
+                            "guid": "862c2d27",
+                            "name": "XP - Web",
+                            "is_default": true,
+                            "policy_compliance_status": "DID_NOT_PASS"
+                        }
+                    ],
+                    "teams": 
+                    [
+                        {
+                            "team_id": 67251,
+                            "team_name": "HC-PowerShare",
+                            "guid": "7333bc8a"
+                        }
+                    ],
+                    "custom_fields": 
+                    [
+                        {
+                            "name": "Product",
+                            "value": "PowerShare"
+                        },
+                        {
+                            "name": "Line of Business",
+                            "value": "Diagnostics"
+                        },
+                        {
+                            "name": "Code Repo URL",
+                            "value": "www.www.com"
+                        },
+                        {
+                            "name": "Deployment Location",
+                            "value": "Hosted (Public Cloud)"
+                        }
+                    ],
+                    "description": null,
+                    "settings": 
+                    {
+                        "nextday_consultation_allowed": true,
+                        "static_scan_dependencies_allowed": false,
+                        "static_scan_xpa_or_dpa": true,
+                        "dynamic_scan_approval_not_required": false,
+                        "sca_enabled": false
+                    },
+                    "business_criticality": "MEDIUM"
+                },
+                "results_url": "ViewReportsResultSummary",
+                "_links": 
+                {
+                    "self": 
+                    {
+                        "href": "https://ww.com"
+                    },
+                    "sandboxes": 
+                    {
+                        "href": "https://ww.com",
+                        "templated": true
+                    },
+                    "policy": 
+                    {
+                        "href": "https://ww.com"
+                    }
+                }
+            },
+            {
+                "id": 243678,
+                "oid": 34738,
+                "last_completed_scan_date": "2023-02-02T06:41:57.000Z",
+                "guid": "863b39cc",
+                "created": "2016-08-29T18:02:55.000Z",
+                "modified": "2023-02-09T10:19:56.000Z",
+                "app_profile_url": "HomeAppProfile",
+                "scans": 
+                [
+                    {
+                        "scan_type": "STATIC",
+                        "status": "PUBLISHED",
+                        "modified_date": "2023-02-02T06:41:57.000Z",
+                        "scan_url": "StaticOverview",
+                        "internal_status": "resultsready",
+                        "links": [],
+                        "fallback_type": null,
+                        "full_type": null
+                    }
+                ],
+                "last_policy_compliance_check_date": "2023-02-02T06:43:37.000Z",
+                "profile": 
+                {
+                    "name": "PowerShare API",
+                    "tags": "API, Healthcare, Pharmaceuticals, & Biotech, Information Access/Delivery/Mining/Portal, Internally Developed, PowerShare, Web Based",
+                    "business_unit": 
+                    {
+                        "id": 53264,
+                        "name": "Healthcare R&D",
+                        "guid": "b34d579d"
+                    },
+                    "business_owners": 
+                    [
+                        {
+                            "name": "Joseph Najjar",
+                            "email": "joseph.najjar@nuance.com"
+                        }
+                    ],
+                    "archer_app_name": null,
+                    "policies": 
+                    [
+                        {
+                            "guid": "b20f293c-9165-4f08-a815-ea0527202d89",
+                            "name": "Nuance - API",
+                            "is_default": true,
+                            "policy_compliance_status": "DID_NOT_PASS"
+                        }
+                    ],
+                    "teams": 
+                    [
+                        {
+                            "team_id": 67251,
+                            "team_name": "HC-PowerShare",
+                            "guid": "7333bc8a-caea-49c8-b4d0-c7d1477f4333"
+                        },
+                        {
+                            "team_id": 215264,
+                            "team_name": "HC-PMO",
+                            "guid": "7ac31240-6dc9-4481-bd56-b359a64bf248"
+                        }
+                    ],
+                    "custom_fields": 
+                    [
+                        {
+                            "name": "Product",
+                            "value": "PowerShare"
+                        },
+                        {
+                            "name": "Deployment Location",
+                            "value": "Hosted (Public Cloud)"
+                        },
+                        {
+                            "name": "Line of Business",
+                            "value": "Diagnostics"
+                        },
+                        {
+                            "name": "Code Repo URL",
+                            "value": "https://ww.com"
+                        },
+                        {
+                            "name": "Interface Type",
+                            "value": "REST API"
+                        }
+                    ],
+                    "description": null,
+                    "settings": 
+                    {
+                        "nextday_consultation_allowed": true,
+                        "static_scan_dependencies_allowed": false,
+                        "static_scan_xpa_or_dpa": true,
+                        "dynamic_scan_approval_not_required": false,
+                        "sca_enabled": false
+                    },
+                    "business_criticality": "VERY_HIGH"
+                },
+                "results_url": "ViewReportsResultSummary",
+                "_links": 
+                {
+                    "self": 
+                    {
+                        "href": "https://ww.com"
+                    },
+                    "sandboxes": 
+                    {
+                        "href": "https://ww.com",
+                        "templated": true
+                    },
+                    "policy": {
+                        "href": "https://ww.com"
+                    }
+                }
+            }
+        ]
+    }
+}
