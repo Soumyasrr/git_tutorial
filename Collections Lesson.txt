@@ -1,0 +1,84 @@
+Collections Lesson:
+
+Iterable -> Collection -> List -> ArrayList -> LinkedList -> Vector 
+															 Stack
+					   
+					   -> Set -> HashSet -> LinkedHashSet
+					   		  -> SortedSet -> TreeSet
+
+Map -> HashMap -> LinkedHashMap
+	-> SortedMap -> TreeMap
+
+ArrayList<String> names = new ArrayList<String>(); //type safe
+ArrayList<Interger> names = new ArrayList(); // ok in new version
+
+LinkedList list = new LinkedList(); //type unsafe
+
+Collections.sort(names);
+
+add("Sam") (1,"Ram")
+list.addAll(names)
+remove("Sam") remove(2) 
+get(1)
+set(1,"Ram") //index
+size()
+clear()
+indexOf()
+clone()
+contains("Sam")
+isEmpty() //boolean
+
+Traverse a Collection using 5 methods
+1) for(String str: names)
+2) Using Iterator interface and iterator() method
+//forward traversal
+
+Iterator<String> itr = names.iterator();
+while(itr.hasNext())
+{
+	System.out.println(itr.next());
+}
+
+4)//backward traversal using listIterator()
+  //to set cursor position correct we need to define size of names
+
+ListIterator<String> litr = names.listIterator(names.size()); 
+while(litr.hasPrevious())
+{
+	System.out.println(litr.previous());
+}
+3)for each method using lambda expression
+
+names.forEach(str->{
+	System.out.println(str);
+})
+
+5)Enumetor
+----------------------------------------------------------------------
+
+---HashMap---
+HashMap<String,Integer> hm = new HashMap<>();
+hm.put("Math",1);
+hm.put("English",2);
+hm.get("Math") // key 1
+
+hm.forEach((e1,e2)->{ 	//Math===>1
+
+            System.out.println(e1+"===>"+e2); });
+
+isEmpty()
+clear()
+containsKey()
+containsValue()
+size()
+replace(key,oldValue,newValue) // boolean
+replace(key,value)
+putIfAbsent(key,value)
+remove(key)
+remove(key,value)
+keySet()
+values()
+
+
+
+
